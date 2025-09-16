@@ -1,0 +1,6 @@
+pyTelegramBotAPI==4.9.0
+python-dotenv==0.21.1
+aiohttp>=3.8.1
+deep-translator==1.11.4
+schedule==1.2.2
+peewee==3.18.2

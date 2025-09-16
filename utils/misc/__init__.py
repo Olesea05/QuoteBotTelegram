@@ -1,0 +1,1 @@
+from .daily_dispatch import send_daily_quote

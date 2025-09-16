@@ -1,0 +1,3 @@
+from .config import BOT_TOKEN, RAPID_API_KEY, DEFAULT_COMMANDS
+
+__all__ = ['BOT_TOKEN', 'RAPID_API_KEY', 'DEFAULT_COMMANDS']
