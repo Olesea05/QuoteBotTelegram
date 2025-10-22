@@ -1,10 +1,10 @@
 import time
-from structure_example.loader import bot
-import structure_example.handlers.default_handlers
-from structure_example.utils.set_bot_commands import set_default_commands
-from structure_example.utils.run_scheduler import start_scheduler
-from structure_example.database.database import initialize_database
-from structure_example.handlers.default_handlers import fallback
+from loader import bot
+import handlers.default_handlers
+from utils.set_bot_commands import set_default_commands
+from utils.run_scheduler import start_scheduler
+from database.database import initialize_database
+from handlers.default_handlers import fallback
 
 if __name__ == "__main__":
     initialize_database()

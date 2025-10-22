@@ -1,6 +1,6 @@
 from telebot.types import Message
-from structure_example.loader import bot
-from structure_example.database.database import get_history, format_timestamp_to_local
+from loader import bot
+from database.database import get_history, format_timestamp_to_local
 
 
 @bot.message_handler(commands=['history'])

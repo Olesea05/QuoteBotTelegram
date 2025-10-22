@@ -1,7 +1,7 @@
 from telebot.types import Message
-from structure_example.database.database import add_to_history
-from structure_example.config_data.config import DEFAULT_COMMANDS
-from structure_example.loader import bot
+from database.database import add_to_history
+from config_data.config import DEFAULT_COMMANDS
+from loader import bot
 
 
 @bot.message_handler(commands=["help"])

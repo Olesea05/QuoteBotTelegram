@@ -1,15 +1,15 @@
 from telebot.types import Message, CallbackQuery
-from structure_example.loader import bot
-from structure_example.api.quote_api import get_random_quote
+from loader import bot
+from api.quote_api import get_random_quote
 from deep_translator import GoogleTranslator
 import uuid
-from structure_example.database.database import (
+from database.database import (
     add_to_history,
     add_to_favorites,
     remove_favorite_quote
 )
-from structure_example.keyboards.inline.inline_buttons import get_quote_buttons
-from structure_example.quotes.quote_storage import quote_storage
+from keyboards.inline.inline_buttons import get_quote_buttons
+from quotes.quote_storage import quote_storage
 
 
 @bot.message_handler(commands=["quote"])

@@ -1,7 +1,7 @@
 from telebot.types import Message
-from structure_example.loader import bot
-from structure_example.database.database import get_favorites, add_to_history
-from structure_example.keyboards.inline.inline_buttons import get_favorite_buttons
+from loader import bot
+from database.database import get_favorites, add_to_history
+from keyboards.inline.inline_buttons import get_favorite_buttons
 
 
 @bot.message_handler(commands=['show_favorites'])

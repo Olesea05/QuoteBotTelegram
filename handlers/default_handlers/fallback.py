@@ -1,6 +1,6 @@
 from telebot.types import Message
-from structure_example.loader import bot
-from structure_example.database.database import add_to_history
+from loader import bot
+from database.database import add_to_history
 
 
 @bot.message_handler(func=lambda message: True)

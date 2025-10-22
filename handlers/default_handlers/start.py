@@ -1,6 +1,6 @@
 from telebot.types import Message
-from structure_example.loader import bot
-from structure_example.database.database import add_to_history, add_or_update_user
+from loader import bot
+from database.database import add_to_history, add_or_update_user
 
 
 @bot.message_handler(commands=["start"])

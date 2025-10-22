@@ -1,7 +1,7 @@
 import schedule
 import time
 from threading import Thread
-from structure_example.utils.misc.daily_dispatch import send_daily_quote
+from utils.misc.daily_dispatch import send_daily_quote
 
 
 def job() -> None:
